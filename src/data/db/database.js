@@ -3,7 +3,7 @@ import Mock from "../mock";
 const database = {
   information: {
     name: 'Danny Gleason',
-    aboutContent: "I am a frontend web developer. I can provide clean code, and enjoy working through challenging problems.",
+    aboutContent: "I am a frontend web developer. I enjoy working through challenging problems, and provide clean code when finding solutions.",
     age: 29,
     phone: '978-402-6218',
     // nationality: 'American',
@@ -29,7 +29,7 @@ const database = {
     {
       title: "Web Development",
       icon: 'code',
-      details: "Proficient in HTML, CSS, Javascript, React. "
+      details: "Proficient in HTML, CSS, Javascript, React.js "
     }
   ],
   reviews: [
@@ -38,15 +38,7 @@ const database = {
       content: "Danny is an individual that will always be there when you need him. He is dependable...he is creative and always thinking outside the box.",
       author: {
         name: 'Stephen Sullivan',
-        designation: 'Web Developer, Abc Company'
-      }
-    },
-    {
-      id: 2,
-      content: "",
-      author: {
-        name: '',
-        designation: ''
+        designation: 'Institutional Equity Sales, Guggenheim Partners'
       }
     }
   ],
@@ -89,12 +81,22 @@ const database = {
     {
       id: 2,
       title: "Puppy Click Game",
-      subtitle: "Game made in React, designed so that a user isn't allowed to click a puppy image twice.",
+      subtitle: "Game made in ReactJS, designed so that a user isn't allowed to click a puppy image twice.",
       imageUrl: "https://i.ibb.co/dJRDhhK/Screen-Shot-2019-12-24-at-11-13-28-AM.png",
       largeImageUrl: [
         "https://i.ibb.co/dJRDhhK/Screen-Shot-2019-12-24-at-11-13-28-AM.png"
       ],
       url: 'https://polar-cove-77559.herokuapp.com/'
+    },
+    {
+      id: 3,
+      title: "Brewery Tour Manager",
+      subtitle: "Built using ReactJS. Made so that a user can plan his/her own brewery tour in a select city. Draws upon the OpenBrewery API to display breweries in cities across the US",
+      imageUrl: "https://i.ibb.co/Lz2DtpM/Screen-Shot-2020-01-09-at-1-04-50-PM.png",
+      largeImageUrl: [
+        "https://i.ibb.co/Lz2DtpM/Screen-Shot-2020-01-09-at-1-04-50-PM.png"
+      ],
+      url: 'https://flamboyant-booth-ec5a09.netlify.com/'
     }
   ],
   experience: {

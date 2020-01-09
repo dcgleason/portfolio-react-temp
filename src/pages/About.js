@@ -85,7 +85,7 @@ function About(){
                   I am <span className="color-theme">{information.name}</span>
                 </h3>
                 <p>
-                  I am a frontend web developer. I can provide clean code, and enjoy a having a problem to solve.
+                  I am a frontend web developer. I enjoy working through challenging problems, and provide clean code when finding solutions.
                 </p>
                 <ul>
                   {!information.name ? null : <li>

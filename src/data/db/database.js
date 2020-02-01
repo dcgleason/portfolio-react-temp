@@ -134,7 +134,7 @@ const database = {
       {
         id: 2,
         year: "2009 - 2013",
-        graduation: "Bachelor of Acience",
+        graduation: "Bachelor of Arts",
         university: "Boston College",
         details: "Took advanced coursework in Theology, Chinese, and the Sciences. Accepted as part of the Honors Program."
       }
